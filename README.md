@@ -20,7 +20,7 @@ An animated login form featuring a playful panda that interactively covers its e
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/panda_login_form.git
+git clone https://github.com/lucy-sees/panda_login_form.git
 ```
 
 2. Open in browser:
