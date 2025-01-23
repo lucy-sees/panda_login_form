@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #4c5357;
+    background-color: #fac531;
 }
 
 .container {
@@ -101,6 +101,7 @@ form button {
 .ear-r {
     right: -1.25em;
 }
+
 
 .blush-l, .blush-r {
     height: 1.25em;
@@ -202,4 +203,83 @@ form button {
 
 .paw-r {
     right: 8.12em;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.container {
+    height: 31.25em;
+    width: 31.25em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.panda-face {
+    height: 7.5em;
+    width: 8.4em;
+    background-color: #ffffff;
+    border: 0.18em solid #2e0d3b;
+    border-radius: 7.5em 7.5em 5.62em 5.62em;
+    position: absolute;
+    top: 2em;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+
+.ear-l, .ear-r {
+    height: 2.5em;
+    width: 2.5em;
+    background-color: #2e0d3b;
+    border-radius: 50%;
+    position: absolute;
+    top: -1em;
+}
+
+.ear-l {
+    left: -1em;
+}
+
+.ear-r {
+    right: -1em;
+}
+
+
+.foot-l, .foot-r {
+    height: 2.5em;
+    width: 2.5em;
+    background-color: #2e0d3b;
+    border-radius: 50%;
+    position: absolute;
+    top: 13.75em;
+}
+
+.foot-l {
+    left: 5em;
+}
+
+.foot-r {
+    right: 5em;
+}
+
+.paw-l, .paw-r {
+    height: 1.5em;
+    width: 1.5em;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
 }
