@@ -113,40 +113,31 @@
     transform: rotate(-25deg);
     right: 1em;
   }
-  .eye-l,
-  .eye-r {
+  .eye-l, .eye-r {
+    position: absolute;
+    width: 1.87em;
+    height: 1.87em;
     background-color: #3f3554;
     height: 2.18em;
     width: 2em;
     border-radius: 2em;
+
+    top: 2.5em;
+}
+
+.eye-l { left: 1.87em; }
+.eye-r { right: 1.87em; }
+
+.eyeball-l, .eyeball-r {
     position: absolute;
-    top: 2.18em;
-  }
-  .eye-l {
-    left: 1.37em;
-    transform: rotate(-20deg);
-  }
-  .eye-r {
-    right: 1.37em;
-    transform: rotate(20deg);
-  }
-  .eyeball-l,
-  .eyeball-r {
-    height: 0.6em;
     width: 0.6em;
-    background-color: #ffffff;
+    height: 0.6em;
+    background: #fff;
     border-radius: 50%;
-    position: absolute;
-    left: 0.6em;
     top: 0.6em;
-    transition: 1s all;
-  }
-  .eyeball-l {
-    transform: rotate(20deg);
-  }
-  .eyeball-r {
-    transform: rotate(-20deg);
-  }
+    left: 0.7em;
+    transition: all 0.3s;
+}
   .nose {
     height: 1em;
     width: 1em;
