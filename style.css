@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #4c5357;
+}
+
+.container {
+    height: 31.25em;
+    width: 31.25em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+form {
+    width: 23.75em;
+    height: 18.75em;
+    background-color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: calc(50% + 3.1em);
+    left: 50%;
+    padding: 0 3.1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.5em;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.2em;
+    font-weight: 600;
+    color: #2e0d3b;
+}
+
+form input {
+    font-size: 0.95em;
+    font-weight: 400;
+    color: #2e0d3b;
+    padding: 0.3em;
+    border: none;
+    border-bottom: 0.12em solid #2e0d3b;
+    outline: none;
+}
+
+form input:focus {
+    border-color: #fac531;
+}
+
+form input:not(:last-child) {
+    margin-bottom: 0.9em;
+}
+
+form button {
+    font-size: 0.95em;
+    padding: 0.8em;
+    border-radius: 2em;
+    border: none;
+    outline: none;
+    background-color: #fac531;
+    color: #2e0d3b;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    margin-top: 0.8em;
+}
+
+.panda-face {
+    height: 7.5em;
+    width: 8.4em;
+    background-color: #ffffff;
+    border: 0.18em solid #2e0d3b;
+    border-radius: 7.5em 7.5em 5.62em 5.62em;
+    position: absolute;
+    top: 2em;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.ear-l, .ear-r {
+    height: 3.75em;
+    width: 3.75em;
+    background-color: #2e0d3b;
+    border-radius: 50%;
+    position: absolute;
+    top: -1.25em;
+}
+
+.ear-l {
+    left: -1.25em;
+}
+
+.ear-r {
+    right: -1.25em;
+}
+
+.blush-l, .blush-r {
+    height: 1.25em;
+    width: 1.25em;
+    background-color: #ff7f7f;
+    border-radius: 50%;
+    position: absolute;
+    top: 4.37em;
+}
+
+.blush-l {
+    left: 1.25em;
+}
+
+.blush-r {
+    right: 1.25em;
+}
+
+.eye-l, .eye-r {
+    height: 1.87em;
+    width: 1.87em;
+    background-color: #2e0d3b;
+    border-radius: 50%;
+    position: absolute;
+    top: 2.5em;
+}
+
+.eye-l {
+    left: 1.87em;
+}
+
+.eye-r {
+    right: 1.87em;
+}
+
+.eyeball-l, .eyeball-r {
+    height: 0.62em;
+    width: 0.62em;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.62em;
+    left: 0.62em;
+}
+
+.nose {
+    height: 1.25em;
+    width: 1.25em;
+    background-color: #2e0d3b;
+    border-radius: 50%;
+    position: absolute;
+    top: 4.37em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mouth {
+    height: 0.62em;
+    width: 1.87em;
+    background-color: #2e0d3b;
+    border-radius: 0 0 0.62em 0.62em;
+    position: absolute;
+    top: 5.62em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hand-l, .hand-r {
+    height: 2.81em;
+    width: 1.87em;
+    background-color: #2e0d3b;
+    border-radius: 1.87em;
+    position: absolute;
+    top: 8.4em;
+}
+
+.hand-l {
+    left: 7.5em;
+    transform: rotate(0deg);
+}
+
+.hand-r {
+    right: 7.5em;
+    transform: rotate(0deg);
+}
+
+.paw-l, .paw-r {
+    height: 1.25em;
+    width: 1.25em;
+    background-color: #2e0d3b;
+    border-radius: 50%;
+    position: absolute;
+    top: 10.62em;
+}
+
+.paw-l {
+    left: 8.12em;
+}
+
+.paw-r {
+    right: 8.12em;
+}
