@@ -25,7 +25,7 @@ git clone https://github.com/lucy-sees/panda_login_form.git
 
 2. Open in browser:
 ```bash
-cd interactive-panda-login && open index.html
+cd panda_login_form && open index.html
 ```
 
 ## Usage
